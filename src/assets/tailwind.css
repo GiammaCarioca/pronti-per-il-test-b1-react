@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+@tailwind base;
+
+@tailwind components;
+
+body {
+  font-family: "Poppins", sans-serif;
+  @apply text-gray-800 bg-gray-100;
+}
+
+.wrapper {
+  @apply p-6 mx-auto;
+}
+
+.instructions {
+  @apply text-xl font-bold;
+}
+
+.btn {
+  @apply px-4 py-2 my-8 font-bold text-blue-600 bg-transparent border-2 border-blue-600 border-solid rounded shadow-lg;
+}
+
+.btn:hover {
+  @apply text-blue-100 bg-blue-600;
+}
+
+.btn:active {
+  @apply text-blue-100 bg-blue-600;
+}
+
+@tailwind utilities;
